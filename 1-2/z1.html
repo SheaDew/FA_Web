@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>T1Kuz</title>
+		<link rel="stylesheet" href="z1.css">
+	</head>
+	<body>
+		<h1>"Форма"</h1>
+		<form id="" action="#" method="POST">
+			<fieldset>
+				<legend>Контактные данные</legend>
+
+				<label for="name">Имя 
+				<input id="name" name="name" required="" type="text">
+				<em>*</em></label>
+				<br>
+
+				<label for="name">Фамилия
+				<input id="name" name="name" required="" type="text">
+				<em>*</em></label>
+				<br>
+
+				<label for="name">Отчество
+				<input id="name" name="name" required="" type="text">
+				<em>*</em></label>
+				<br>
+
+				<label for="telephone">Номер телефона </label>
+				<input id="telephone" name="telephone" placeholder="+8(800) 555-35-35"  type="tel"><br>
+				
+				<label for="email">Электронная почта 
+				<input id="email" name="email" required="" type="email"><em>*</em>
+				</label>
+				<br>
+				<label for="dateVisit">Дата рождения
+					<input id="dateVisit" name="dateVisit" required="" type="date"><em>*</em>
+					</label>
+					<br>
+								<p><b>Пол</b></p>
+				<input type="radio" value="m" id="male" name="recommend" checked>
+				<label for="yes">Мужской</label>
+				<br>
+				<input type="radio" value="f" id="female" name="recommend">
+				<label for="no">Женский</label>
+				<br>
+			</fieldset>
+
+			<fieldset>
+								<p><b>Почему вы устраиваетесь к нам</b></p>
+				<input type="checkbox" value="home" id="home" name="cause">
+				<label for="home">Рядом с домом</label>
+				<br>
+				<input type="checkbox" value="sal" id="sal" name="cause">
+				<label for="sal">Высокая зарплата</label>
+				<br>
+				<input type="checkbox" value="graphic" id="graphic" name="cause">
+				<label for="graphic">Гибкий график</label>
+				<br>
+								<p><b>Количество дней работы в неделю</b></p>
+				<input id="workday" name="workday" required="" type="number" value="1" min=1 max=7>
+				<em>*</em></label>
+				<br>
+				<label for="daygraphic">График работы</label>
+				<select name="daygraphic" id="daygraphic">
+					<option value="flex">Гибкий</option>
+					<option value="fi">5/2</option>
+					<option value="twtw">2/2</option>
+				</select>
+				<br>
+				<label for="newdish">Расскажите о себе</label><br>
+				<textarea name="yself" id="yself" rows="3"></textarea>
+			</fieldset>
+
+			<div>
+				<input type="submit"  value="Отправить">
+			</div>
+		</form>
+	</body>
+</html>				
